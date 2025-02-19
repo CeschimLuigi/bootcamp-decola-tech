@@ -1,0 +1,3 @@
+spring:
+  profiles:
+    active: ${APP_PROFILE:dev}  # Define o perfil ativo baseado na variável de ambiente APP_PROFILE
